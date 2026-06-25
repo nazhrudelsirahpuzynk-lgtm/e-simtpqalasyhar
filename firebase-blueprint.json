@@ -1,0 +1,66 @@
+{
+  "collections": [
+    {
+      "name": "users",
+      "fields": {
+        "name": "string",
+        "phone": "string",
+        "role": "string",
+        "gender": "string",
+        "birthPlace": "string",
+        "birthDate": "string",
+        "address": "string",
+        "classLevel": "string",
+        "isActive": "boolean"
+      }
+    },
+    {
+      "name": "santri",
+      "fields": {
+        "name": "string",
+        "nis": "string",
+        "gender": "string",
+        "birthPlace": "string",
+        "birthDate": "string",
+        "address": "string",
+        "classLevel": "string",
+        "ustadzId": "string",
+        "fatherName": "string",
+        "motherName": "string",
+        "parentPhone": "string",
+        "isActive": "boolean"
+      }
+    },
+    {
+      "name": "attendance",
+      "fields": {
+        "santriId": "string",
+        "date": "string",
+        "status": "string",
+        "note": "string",
+        "ustadzId": "string"
+      }
+    },
+    {
+      "name": "evaluations",
+      "fields": {
+        "santriId": "string",
+        "date": "string",
+        "subject": "string",
+        "score": "number",
+        "note": "string",
+        "ustadzId": "string"
+      }
+    },
+    {
+      "name": "announcements",
+      "fields": {
+        "title": "string",
+        "content": "string",
+        "date": "string",
+        "type": "string",
+        "authorId": "string"
+      }
+    }
+  ]
+}

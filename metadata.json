@@ -1,0 +1,8 @@
+{
+  "name": "TPQ AL ASYHAR",
+  "description": "Sistem Manajemen & Edukasi Santri Taman Pendidikan Al-Qur'an",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
